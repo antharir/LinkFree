@@ -1,9 +1,9 @@
-# 1.69.0 (2023-01-28)
+## 1.110.4 (2023-04-19)
 
 
-### Features
+### Bug Fixes
 
-* use github profile [#4018](https://github.com/EddieHubCommunity/LinkFree/issues/4018) ([#4021](https://github.com/EddieHubCommunity/LinkFree/issues/4021)) ([9fb30d2](https://github.com/EddieHubCommunity/LinkFree/commit/9fb30d2dc35dc6c9bbd2f2329aed71b6d88b1787))
+* dashboard hide old links ([#6207](https://github.com/EddieHubCommunity/LinkFree/issues/6207)) ([32855a3](https://github.com/EddieHubCommunity/LinkFree/commit/32855a3f7f0efc7cbf65bc629033552fc588efcc)), closes [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202) [#6095](https://github.com/EddieHubCommunity/LinkFree/issues/6095) [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202) [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202)
 
 
 

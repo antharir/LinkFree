@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import logger from "../../config/logger";
+import logger from "@config/logger";
 
 export default function findAllBasic() {
   const directoryPath = path.join(process.cwd(), "data");
@@ -22,7 +22,6 @@ export default function findAllBasic() {
       return {
         name: json.name,
         bio: json.bio,
-        displayStatsPublic: json.displayStatsPublic,
         avatar: `https://github.com/${file.split(".")[0]}.png`,
         tags: json.tags,
         username: file.split(".")[0],

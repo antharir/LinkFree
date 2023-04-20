@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import logger from "../../config/logger";
+import logger from "@config/logger";
 
 export default function loadProfiles(profiles) {
   const directoryPath = path.join(process.cwd(), "data");
@@ -14,7 +14,6 @@ export default function loadProfiles(profiles) {
         ...profile,
         name: json.name,
         bio: json.bio,
-        displayStatsPublic: json.displayStatsPublic,
         avatar: `https://github.com/${profile.username}.png`,
         tags: json.tags,
       };
